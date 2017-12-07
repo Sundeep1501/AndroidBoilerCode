@@ -6,6 +6,7 @@ An android application which includes core android libraries integrated.
 - [RxJava](https://github.com/ReactiveX/RxJava)
 - [RxPermissions](https://github.com/tbruyelle/RxPermissions)
 - [Retrofit](http://square.github.io/retrofit/)
+- [Dagger](https://github.com/google/dagger)
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html)
 
 ## Authors
