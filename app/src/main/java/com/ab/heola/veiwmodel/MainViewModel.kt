@@ -9,6 +9,7 @@ import com.ab.heola.datasource.retrofit.PostClient
 import com.ab.heola.datasource.retrofit.model.Post
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
+import java.io.IOException
 import java.util.*
 import javax.inject.Inject
 
@@ -36,7 +37,11 @@ open class MainViewModel(application: Application) : AndroidViewModel(applicatio
                             mPost.value = post
                         },
                         { error ->
-                            Toast.makeText(getApplication(), "Failure", Toast.LENGTH_LONG).show()
+                            if (error is IOException) {
+                                Toast.makeText(getApplication(), "No Internet", Toast.LENGTH_LONG).show()
+                            } else {
+                                Toast.makeText(getApplication(), "Failure", Toast.LENGTH_LONG).show()
+                            }
                         }
                 )
     }
