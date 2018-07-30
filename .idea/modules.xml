@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidBoilerCode.iml" filepath="$PROJECT_DIR$/AndroidBoilerCode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../AndroidBoilerCode/HEOla.iml" filepath="$PROJECT_DIR$/../AndroidBoilerCode/HEOla.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mornings.iml" filepath="$PROJECT_DIR$/Mornings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../AndroidBoilerCode/app/app.iml" filepath="$PROJECT_DIR$/../AndroidBoilerCode/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
